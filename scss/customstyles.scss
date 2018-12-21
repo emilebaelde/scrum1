@@ -31,5 +31,25 @@ body{
   box-shadow: none !important;
 }
 .s1_task_tekst h3{
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
+
+
+.s1_badge_tekst{
+  position: absolute;
+  top:45%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 25px;
+}
+//.badge1{
+//  font-size: 30px;
+//  margin-right: 5px;
+//  padding: 12px;
+//
+//}
+//.badge2{
+//  font-size: 30px;
+//  padding: 12px;
+//
+//}

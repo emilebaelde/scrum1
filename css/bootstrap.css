@@ -7368,4 +7368,13 @@ body {
   box-shadow: none !important; }
 
 .s1_task_tekst h3 {
-  font-size: 1.2rem; }
+  font-size: 1.1rem; }
+
+.s1_badge_tekst {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  font-size: 25px; }
