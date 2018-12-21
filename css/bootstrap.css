@@ -7337,5 +7337,35 @@ a.text-dark:hover, a.text-dark:focus {
     border-color: #dee2e6; } }
 
 /**Dit is mijn eigne css bestand**/
+body {
+  background-color: white; }
+
+/*Select layout*/
+/*task artivles*/
+.custom-select {
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important; }
+
+.s1_profile_pic {
+  width: 3rem;
+  height: 3rem; }
+
+.s1_profile_pic p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); }
+
+.s1_bg_task {
+  background-color: white; }
+
 .s1_optiemenu {
-  background: none; }
+  background: none;
+  outline: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important; }
+
+.s1_task_tekst h3 {
+  font-size: 1.2rem; }
