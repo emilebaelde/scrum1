@@ -53,3 +53,18 @@ body{
 //  padding: 12px;
 //
 //}
+
+#messages {
+  h3 {
+    font-size: 14px;
+  }
+
+  h3 span {
+    color: lightgray;
+    font-weight: lighter;
+  }
+  .maxbreedte {
+    max-width: 75%;
+  }
+
+}

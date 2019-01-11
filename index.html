@@ -1,328 +1,478 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-
-    <meta charset="UTF-8">
-    <meta name="description" content="Bootstrap template met sass">
-    <meta name="keywords" content="HTML,CSS,SCSS,Bootstrap">
-    <meta name="author" content="Emile Baelde">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=0">
-
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-
-
-    <title>Bootstraptemplate</title>
+	<meta charset="UTF-8">
+	
+	<meta charset="UTF-8">
+	<meta name="description" content="Bootstrap template met sass">
+	<meta name="keywords" content="HTML,CSS,SCSS,Bootstrap">
+	<meta name="author" content="Emile Baelde">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=0">
+	
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+	      integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+	
+	<title>Bootstraptemplate</title>
 </head>
 <body>
 <div class="container-fluid">
-    <section class="row">
-        <div class="col-lg-10 offset-lg-1">
-            <div class="row">
-                <!--Hier begint Task-->
-                <div class="col-lg-4 s1_bg_task">
-                    <ul class="list-group">
-                        <li class="list-group-item">
-                            <header class="row">
-                                <div class="col-12 d-flex">
-                                    <h2>Tasks</h2>
-                                    <div class="mt-1 ml-3 mr-3">
-                                        <select id="s1_options" class="py-1 mr-3 custom-select">
-                                            <option value="s1_persoonlijk" >Persoonlijk</option>
-                                            <option value="s1_shared">Shared</option>
-                                            <option value="s1_algemeen">Algemeen</option>
-                                        </select>
-                                    </div>
-                                    <div class="ml-5">
-                                        <div class="rounded-circle badge badge-primary position-relative p-4">
-                                            <p class="s1_badge_tekst">2</p>
-                                        </div>
-                                        <div class="badge badge-danger rounded-circle position-relative p-4">
-                                            <p class="s1_badge_tekst">4</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </header>
-                        </li>
-                        <div id="s1_persoonlijk" class="s1_task_content">
-
-                            <li class="list-group-item d-flex">
-                                <div class="rounded-circle bg-primary s1_profile_pic position-relative align-self-center  mr-1">
-                                    <p class="text-white">N</p>
-                                </div>
-
-                                <div class="s1_task_tekst mt-3 ml-4">
-                                    <h3>New website for Smartschool</h3>
-                                    <p class="text-danger"><i class="far fa-clock mr-2"></i>5 days delays</p>
-                                </div>
-                                <div class="dropdown my-auto ml-5">
-                                    <button class="btn s1_optiemenu" type="button" id="dropdownMenuButton1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        <i class="fas fa-ellipsis-v fa-2x" style="color: #8492af;"></i>
-                                    </button>
-                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                        <a class="dropdown-item" href="#">Wijzigen</a>
-                                        <a class="dropdown-item" href="#">Massages</a>
-                                        <a class="dropdown-item" href="#">Delete</a>
-                                    </div>
-                                </div>
-                            </li>
-
-                            <li class="list-group-item d-flex">
-                                <div class="rounded-circle bg-primary s1_profile_pic position-relative align-self-center  mr-1">
-                                    <p class="text-white">N</p>
-                                </div>
-
-                                <div class="s1_task_tekst mt-3 ml-4">
-                                    <h3>New website for Smartschool</h3>
-                                    <p class="text-danger"><i class="far fa-clock mr-2"></i>5 days delays</p>
-                                </div>
-                                <div class="dropdown my-auto ml-5">
-                                    <button class="btn s1_optiemenu" type="button" id="dropdownMenuButton2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        <i class="fas fa-ellipsis-v fa-2x" style="color: #8492af;"></i>
-                                    </button>
-                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
-                                        <a class="dropdown-item" href="#">Wijzigen</a>
-                                        <a class="dropdown-item" href="#">Massages</a>
-                                        <a class="dropdown-item" href="#">Delete</a>
-                                    </div>
-                                </div>
-                            </li>
-
-                            <li class="list-group-item d-flex">
-                                <div class="rounded-circle bg-primary s1_profile_pic position-relative align-self-center  mr-1">
-                                    <p class="text-white">N</p>
-                                </div>
-
-                                <div class="s1_task_tekst mt-3 ml-4">
-                                    <h3>New website for Smartschool</h3>
-                                    <p class="text-danger"><i class="far fa-clock mr-2"></i>5 days delays</p>
-                                </div>
-                                <div class="dropdown my-auto ml-5">
-                                    <button class="btn s1_optiemenu" type="button" id="dropdownMenuButton3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        <i class="fas fa-ellipsis-v fa-2x" style="color: #8492af;"></i>
-                                    </button>
-                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton3">
-                                        <a class="dropdown-item" href="#">Wijzigen</a>
-                                        <a class="dropdown-item" href="#">Massages</a>
-                                        <a class="dropdown-item" href="#">Delete</a>
-                                    </div>
-                                </div>
-                            </li>
-
-                            <li class="list-group-item d-flex">
-                                <div class="rounded-circle bg-primary s1_profile_pic position-relative align-self-center  mr-1">
-                                    <p class="text-white">N</p>
-                                </div>
-
-                                <div class="s1_task_tekst mt-3 ml-4">
-                                    <h3>New website for Smartschool</h3>
-                                    <p class="text-danger"><i class="far fa-clock mr-2"></i>5 days delays</p>
-                                </div>
-                                <div class="dropdown my-auto ml-5">
-                                    <button class="btn s1_optiemenu" type="button" id="dropdownMenuButton4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        <i class="fas fa-ellipsis-v fa-2x" style="color: #8492af;"></i>
-                                    </button>
-                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton4">
-                                        <a class="dropdown-item" href="#">Wijzigen</a>
-                                        <a class="dropdown-item" href="#">Massages</a>
-                                        <a class="dropdown-item" href="#">Delete</a>
-                                    </div>
-                                </div>
-                            </li>
-                        </div>
-
-
-                        <div id="s1_shared" class="s1_task_content">
-
-                            <li class="list-group-item d-flex">
-                                <div class="rounded-circle bg-danger s1_profile_pic position-relative align-self-center  mr-1">
-                                    <p class="text-white">N</p>
-                                </div>
-
-                                <div class="s1_task_tekst mt-3 ml-4">
-                                    <h3>New website for Smartschool</h3>
-                                    <p class="text-danger"><i class="far fa-clock mr-2"></i>5 days delays</p>
-                                </div>
-                                <div class="dropdown my-auto ml-5">
-                                    <button class="btn s1_optiemenu" type="button" id="dropdownMenuButton5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        <i class="fas fa-ellipsis-v fa-2x" style="color: #8492af;"></i>
-                                    </button>
-                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton5">
-                                        <a class="dropdown-item" href="#">Wijzigen</a>
-                                        <a class="dropdown-item" href="#">Massages</a>
-                                        <a class="dropdown-item" href="#">Delete</a>
-                                    </div>
-                                </div>
-                            </li>
-
-                            <li class="list-group-item d-flex">
-                                <div class="rounded-circle bg-danger s1_profile_pic position-relative align-self-center  mr-1">
-                                    <p class="text-white">N</p>
-                                </div>
-
-                                <div class="s1_task_tekst mt-3 ml-4">
-                                    <h3>New website for Smartschool</h3>
-                                    <p class="text-danger"><i class="far fa-clock mr-2"></i>5 days delays</p>
-                                </div>
-                                <div class="dropdown my-auto ml-5">
-                                    <button class="btn s1_optiemenu" type="button" id="dropdownMenuButton6" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        <i class="fas fa-ellipsis-v fa-2x" style="color: #8492af;"></i>
-                                    </button>
-                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton6">
-                                        <a class="dropdown-item" href="#">Wijzigen</a>
-                                        <a class="dropdown-item" href="#">Massages</a>
-                                        <a class="dropdown-item" href="#">Delete</a>
-                                    </div>
-                                </div>
-                            </li>
-
-                            <li class="list-group-item d-flex">
-                                <div class="rounded-circle bg-danger s1_profile_pic position-relative align-self-center  mr-1">
-                                    <p class="text-white">N</p>
-                                </div>
-
-                                <div class="s1_task_tekst mt-3 ml-4">
-                                    <h3>New website for Smartschool</h3>
-                                    <p class="text-danger"><i class="far fa-clock mr-2"></i>5 days delays</p>
-                                </div>
-                                <div class="dropdown my-auto ml-5">
-                                    <button class="btn s1_optiemenu" type="button" id="dropdownMenuButton7" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        <i class="fas fa-ellipsis-v fa-2x" style="color: #8492af;"></i>
-                                    </button>
-                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton7">
-                                        <a class="dropdown-item" href="#">Wijzigen</a>
-                                        <a class="dropdown-item" href="#">Massages</a>
-                                        <a class="dropdown-item" href="#">Delete</a>
-                                    </div>
-                                </div>
-                            </li>
-
-                            <li class="list-group-item d-flex">
-                                <div class="rounded-circle bg-danger s1_profile_pic position-relative align-self-center  mr-1">
-                                    <p class="text-white">N</p>
-                                </div>
-
-                                <div class="s1_task_tekst mt-3 ml-4">
-                                    <h3>New website for Smartschool</h3>
-                                    <p class="text-danger"><i class="far fa-clock mr-2"></i>5 days delays</p>
-                                </div>
-                                <div class="dropdown my-auto ml-5">
-                                    <button class="btn s1_optiemenu" type="button" id="dropdownMenuButton8" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        <i class="fas fa-ellipsis-v fa-2x" style="color: #8492af;"></i>
-                                    </button>
-                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton8">
-                                        <a class="dropdown-item" href="#">Wijzigen</a>
-                                        <a class="dropdown-item" href="#">Massages</a>
-                                        <a class="dropdown-item" href="#">Delete</a>
-                                    </div>
-                                </div>
-                            </li>
-                        </div>
-
-                        <div id="s1_algemeen" class="s1_task_content">
-                            <li class="list-group-item d-flex">
-                                <div class="rounded-circle bg-dark s1_profile_pic position-relative align-self-center  mr-1">
-                                    <p class="text-white">N</p>
-                                </div>
-
-                                <div class="s1_task_tekst mt-3 ml-4">
-                                    <h3>New website for Smartschool</h3>
-                                    <p class="text-danger"><i class="far fa-clock mr-2"></i>5 days delays</p>
-                                </div>
-                                <div class="dropdown my-auto ml-5">
-                                    <button class="btn s1_optiemenu" type="button" id="dropdownMenuButton9" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        <i class="fas fa-ellipsis-v fa-2x" style="color: #8492af;"></i>
-                                    </button>
-                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton9">
-                                        <a class="dropdown-item" href="#">Wijzigen</a>
-                                        <a class="dropdown-item" href="#">Massages</a>
-                                        <a class="dropdown-item" href="#">Delete</a>
-                                    </div>
-                                </div>
-                            </li>
-
-                            <li class="list-group-item d-flex">
-                                <div class="rounded-circle bg-dark s1_profile_pic position-relative align-self-center  mr-1">
-                                    <p class="text-white">N</p>
-                                </div>
-
-                                <div class="s1_task_tekst mt-3 ml-4">
-                                    <h3>New website for Smartschool</h3>
-                                    <p class="text-danger"><i class="far fa-clock mr-2"></i>5 days delays</p>
-                                </div>
-                                <div class="dropdown my-auto ml-5">
-                                    <button class="btn s1_optiemenu" type="button" id="dropdownMenuButton10" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        <i class="fas fa-ellipsis-v fa-2x" style="color: #8492af;"></i>
-                                    </button>
-                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton10">
-                                        <a class="dropdown-item" href="#">Wijzigen</a>
-                                        <a class="dropdown-item" href="#">Massages</a>
-                                        <a class="dropdown-item" href="#">Delete</a>
-                                    </div>
-                                </div>
-                            </li>
-
-                            <li class="list-group-item d-flex">
-                                <div class="rounded-circle bg-dark s1_profile_pic position-relative align-self-center  mr-1">
-                                    <p class="text-white">N</p>
-                                </div>
-
-                                <div class="s1_task_tekst mt-3 ml-4">
-                                    <h3>New website for Smartschool</h3>
-                                    <p class="text-danger"><i class="far fa-clock mr-2"></i>5 days delays</p>
-                                </div>
-                                <div class="dropdown my-auto ml-5">
-                                    <button class="btn s1_optiemenu" type="button" id="dropdownMenuButton11" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        <i class="fas fa-ellipsis-v fa-2x" style="color: #8492af;"></i>
-                                    </button>
-                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton11">
-                                        <a class="dropdown-item" href="#">Wijzigen</a>
-                                        <a class="dropdown-item" href="#">Massages</a>
-                                        <a class="dropdown-item" href="#">Delete</a>
-                                    </div>
-                                </div>
-                            </li>
-
-                            <li class="list-group-item d-flex">
-                                <div class="rounded-circle bg-dark s1_profile_pic position-relative align-self-center  mr-1">
-                                    <p class="text-white">N</p>
-                                </div>
-
-                                <div class="s1_task_tekst mt-3 ml-4">
-                                    <h3>New website for Smartschool</h3>
-                                    <p class="text-danger"><i class="far fa-clock mr-2"></i>5 days delays</p>
-                                </div>
-                                <div class="dropdown my-auto ml-5">
-                                    <button class="btn s1_optiemenu" type="button" id="dropdownMenuButton12" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        <i class="fas fa-ellipsis-v fa-2x" style="color: #8492af;"></i>
-                                    </button>
-                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton12">
-                                        <a class="dropdown-item" href="#">Wijzigen</a>
-                                        <a class="dropdown-item" href="#">Massages</a>
-                                        <a class="dropdown-item" href="#">Delete</a>
-                                    </div>
-                                </div>
-                            </li>
-                        </div>
-                    </ul>
-                </div>
-            </div>
-            <!--EINDE Task-->
-            <div class="col-4">
-
-            </div>
-            <div class="col-4">
-
-            </div>
-        </div>
-    </section>
+	<section class="row">
+		<div class="col-lg-10 offset-lg-1">
+			<div class="row">
+				<!--Hier begint Task-->
+				<div class="col-lg-4 s1_bg_task">
+					<ul class="list-group">
+						<li class="list-group-item">
+							<header class="row">
+								<div class="col-12 d-flex">
+									<h2>Tasks</h2>
+									<div class="mt-1 ml-3 mr-3">
+										<select id="s1_options" class="py-1 mr-3 custom-select">
+											<option value="s1_persoonlijk">Persoonlijk</option>
+											<option value="s1_shared">Shared</option>
+											<option value="s1_algemeen">Algemeen</option>
+										</select>
+									</div>
+									<div class="ml-5">
+										<div class="rounded-circle badge badge-primary position-relative p-4">
+											<p class="s1_badge_tekst">2</p>
+										</div>
+										<div class="badge badge-danger rounded-circle position-relative p-4">
+											<p class="s1_badge_tekst">4</p>
+										</div>
+									</div>
+								</div>
+							</header>
+						</li>
+						<div id="s1_persoonlijk" class="s1_task_content">
+							
+							<li class="list-group-item d-flex">
+								<div class="rounded-circle bg-primary s1_profile_pic position-relative align-self-center  mr-1">
+									<p class="text-white">N</p>
+								</div>
+								
+								<div class="s1_task_tekst mt-3 ml-4">
+									<h3>New website for Smartschool</h3>
+									<p class="text-danger"><i class="far fa-clock mr-2"></i>5 days delays</p>
+								</div>
+								<div class="dropdown my-auto ml-5">
+									<button class="btn s1_optiemenu" type="button" id="dropdownMenuButton1"
+									        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										<i class="fas fa-ellipsis-v fa-2x" style="color: #8492af;"></i>
+									</button>
+									<div class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+										<a class="dropdown-item" href="#">Wijzigen</a>
+										<a class="dropdown-item" href="#">Massages</a>
+										<a class="dropdown-item" href="#">Delete</a>
+									</div>
+								</div>
+							</li>
+							
+							<li class="list-group-item d-flex">
+								<div class="rounded-circle bg-primary s1_profile_pic position-relative align-self-center  mr-1">
+									<p class="text-white">N</p>
+								</div>
+								
+								<div class="s1_task_tekst mt-3 ml-4">
+									<h3>New website for Smartschool</h3>
+									<p class="text-danger"><i class="far fa-clock mr-2"></i>5 days delays</p>
+								</div>
+								<div class="dropdown my-auto ml-5">
+									<button class="btn s1_optiemenu" type="button" id="dropdownMenuButton2"
+									        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										<i class="fas fa-ellipsis-v fa-2x" style="color: #8492af;"></i>
+									</button>
+									<div class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+										<a class="dropdown-item" href="#">Wijzigen</a>
+										<a class="dropdown-item" href="#">Massages</a>
+										<a class="dropdown-item" href="#">Delete</a>
+									</div>
+								</div>
+							</li>
+							
+							<li class="list-group-item d-flex">
+								<div class="rounded-circle bg-primary s1_profile_pic position-relative align-self-center  mr-1">
+									<p class="text-white">N</p>
+								</div>
+								
+								<div class="s1_task_tekst mt-3 ml-4">
+									<h3>New website for Smartschool</h3>
+									<p class="text-danger"><i class="far fa-clock mr-2"></i>5 days delays</p>
+								</div>
+								<div class="dropdown my-auto ml-5">
+									<button class="btn s1_optiemenu" type="button" id="dropdownMenuButton3"
+									        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										<i class="fas fa-ellipsis-v fa-2x" style="color: #8492af;"></i>
+									</button>
+									<div class="dropdown-menu" aria-labelledby="dropdownMenuButton3">
+										<a class="dropdown-item" href="#">Wijzigen</a>
+										<a class="dropdown-item" href="#">Massages</a>
+										<a class="dropdown-item" href="#">Delete</a>
+									</div>
+								</div>
+							</li>
+							
+							<li class="list-group-item d-flex">
+								<div class="rounded-circle bg-primary s1_profile_pic position-relative align-self-center  mr-1">
+									<p class="text-white">N</p>
+								</div>
+								
+								<div class="s1_task_tekst mt-3 ml-4">
+									<h3>New website for Smartschool</h3>
+									<p class="text-danger"><i class="far fa-clock mr-2"></i>5 days delays</p>
+								</div>
+								<div class="dropdown my-auto ml-5">
+									<button class="btn s1_optiemenu" type="button" id="dropdownMenuButton4"
+									        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										<i class="fas fa-ellipsis-v fa-2x" style="color: #8492af;"></i>
+									</button>
+									<div class="dropdown-menu" aria-labelledby="dropdownMenuButton4">
+										<a class="dropdown-item" href="#">Wijzigen</a>
+										<a class="dropdown-item" href="#">Massages</a>
+										<a class="dropdown-item" href="#">Delete</a>
+									</div>
+								</div>
+							</li>
+						</div>
+						
+						<div id="s1_shared" class="s1_task_content">
+							
+							<li class="list-group-item d-flex">
+								<div class="rounded-circle bg-danger s1_profile_pic position-relative align-self-center  mr-1">
+									<p class="text-white">N</p>
+								</div>
+								
+								<div class="s1_task_tekst mt-3 ml-4">
+									<h3>New website for Smartschool</h3>
+									<p class="text-danger"><i class="far fa-clock mr-2"></i>5 days delays</p>
+								</div>
+								<div class="dropdown my-auto ml-5">
+									<button class="btn s1_optiemenu" type="button" id="dropdownMenuButton5"
+									        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										<i class="fas fa-ellipsis-v fa-2x" style="color: #8492af;"></i>
+									</button>
+									<div class="dropdown-menu" aria-labelledby="dropdownMenuButton5">
+										<a class="dropdown-item" href="#">Wijzigen</a>
+										<a class="dropdown-item" href="#">Massages</a>
+										<a class="dropdown-item" href="#">Delete</a>
+									</div>
+								</div>
+							</li>
+							
+							<li class="list-group-item d-flex">
+								<div class="rounded-circle bg-danger s1_profile_pic position-relative align-self-center  mr-1">
+									<p class="text-white">N</p>
+								</div>
+								
+								<div class="s1_task_tekst mt-3 ml-4">
+									<h3>New website for Smartschool</h3>
+									<p class="text-danger"><i class="far fa-clock mr-2"></i>5 days delays</p>
+								</div>
+								<div class="dropdown my-auto ml-5">
+									<button class="btn s1_optiemenu" type="button" id="dropdownMenuButton6"
+									        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										<i class="fas fa-ellipsis-v fa-2x" style="color: #8492af;"></i>
+									</button>
+									<div class="dropdown-menu" aria-labelledby="dropdownMenuButton6">
+										<a class="dropdown-item" href="#">Wijzigen</a>
+										<a class="dropdown-item" href="#">Massages</a>
+										<a class="dropdown-item" href="#">Delete</a>
+									</div>
+								</div>
+							</li>
+							
+							<li class="list-group-item d-flex">
+								<div class="rounded-circle bg-danger s1_profile_pic position-relative align-self-center  mr-1">
+									<p class="text-white">N</p>
+								</div>
+								
+								<div class="s1_task_tekst mt-3 ml-4">
+									<h3>New website for Smartschool</h3>
+									<p class="text-danger"><i class="far fa-clock mr-2"></i>5 days delays</p>
+								</div>
+								<div class="dropdown my-auto ml-5">
+									<button class="btn s1_optiemenu" type="button" id="dropdownMenuButton7"
+									        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										<i class="fas fa-ellipsis-v fa-2x" style="color: #8492af;"></i>
+									</button>
+									<div class="dropdown-menu" aria-labelledby="dropdownMenuButton7">
+										<a class="dropdown-item" href="#">Wijzigen</a>
+										<a class="dropdown-item" href="#">Massages</a>
+										<a class="dropdown-item" href="#">Delete</a>
+									</div>
+								</div>
+							</li>
+							
+							<li class="list-group-item d-flex">
+								<div class="rounded-circle bg-danger s1_profile_pic position-relative align-self-center  mr-1">
+									<p class="text-white">N</p>
+								</div>
+								
+								<div class="s1_task_tekst mt-3 ml-4">
+									<h3>New website for Smartschool</h3>
+									<p class="text-danger"><i class="far fa-clock mr-2"></i>5 days delays</p>
+								</div>
+								<div class="dropdown my-auto ml-5">
+									<button class="btn s1_optiemenu" type="button" id="dropdownMenuButton8"
+									        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										<i class="fas fa-ellipsis-v fa-2x" style="color: #8492af;"></i>
+									</button>
+									<div class="dropdown-menu" aria-labelledby="dropdownMenuButton8">
+										<a class="dropdown-item" href="#">Wijzigen</a>
+										<a class="dropdown-item" href="#">Massages</a>
+										<a class="dropdown-item" href="#">Delete</a>
+									</div>
+								</div>
+							</li>
+						</div>
+						
+						<div id="s1_algemeen" class="s1_task_content">
+							<li class="list-group-item d-flex">
+								<div class="rounded-circle bg-dark s1_profile_pic position-relative align-self-center  mr-1">
+									<p class="text-white">N</p>
+								</div>
+								
+								<div class="s1_task_tekst mt-3 ml-4">
+									<h3>New website for Smartschool</h3>
+									<p class="text-danger"><i class="far fa-clock mr-2"></i>5 days delays</p>
+								</div>
+								<div class="dropdown my-auto ml-5">
+									<button class="btn s1_optiemenu" type="button" id="dropdownMenuButton9"
+									        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										<i class="fas fa-ellipsis-v fa-2x" style="color: #8492af;"></i>
+									</button>
+									<div class="dropdown-menu" aria-labelledby="dropdownMenuButton9">
+										<a class="dropdown-item" href="#">Wijzigen</a>
+										<a class="dropdown-item" href="#">Massages</a>
+										<a class="dropdown-item" href="#">Delete</a>
+									</div>
+								</div>
+							</li>
+							
+							<li class="list-group-item d-flex">
+								<div class="rounded-circle bg-dark s1_profile_pic position-relative align-self-center  mr-1">
+									<p class="text-white">N</p>
+								</div>
+								
+								<div class="s1_task_tekst mt-3 ml-4">
+									<h3>New website for Smartschool</h3>
+									<p class="text-danger"><i class="far fa-clock mr-2"></i>5 days delays</p>
+								</div>
+								<div class="dropdown my-auto ml-5">
+									<button class="btn s1_optiemenu" type="button" id="dropdownMenuButton10"
+									        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										<i class="fas fa-ellipsis-v fa-2x" style="color: #8492af;"></i>
+									</button>
+									<div class="dropdown-menu" aria-labelledby="dropdownMenuButton10">
+										<a class="dropdown-item" href="#">Wijzigen</a>
+										<a class="dropdown-item" href="#">Massages</a>
+										<a class="dropdown-item" href="#">Delete</a>
+									</div>
+								</div>
+							</li>
+							
+							<li class="list-group-item d-flex">
+								<div class="rounded-circle bg-dark s1_profile_pic position-relative align-self-center  mr-1">
+									<p class="text-white">N</p>
+								</div>
+								
+								<div class="s1_task_tekst mt-3 ml-4">
+									<h3>New website for Smartschool</h3>
+									<p class="text-danger"><i class="far fa-clock mr-2"></i>5 days delays</p>
+								</div>
+								<div class="dropdown my-auto ml-5">
+									<button class="btn s1_optiemenu" type="button" id="dropdownMenuButton11"
+									        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										<i class="fas fa-ellipsis-v fa-2x" style="color: #8492af;"></i>
+									</button>
+									<div class="dropdown-menu" aria-labelledby="dropdownMenuButton11">
+										<a class="dropdown-item" href="#">Wijzigen</a>
+										<a class="dropdown-item" href="#">Massages</a>
+										<a class="dropdown-item" href="#">Delete</a>
+									</div>
+								</div>
+							</li>
+							
+							<li class="list-group-item d-flex">
+								<div class="rounded-circle bg-dark s1_profile_pic position-relative align-self-center  mr-1">
+									<p class="text-white">N</p>
+								</div>
+								
+								<div class="s1_task_tekst mt-3 ml-4">
+									<h3>New website for Smartschool</h3>
+									<p class="text-danger"><i class="far fa-clock mr-2"></i>5 days delays</p>
+								</div>
+								<div class="dropdown my-auto ml-5">
+									<button class="btn s1_optiemenu" type="button" id="dropdownMenuButton12"
+									        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										<i class="fas fa-ellipsis-v fa-2x" style="color: #8492af;"></i>
+									</button>
+									<div class="dropdown-menu" aria-labelledby="dropdownMenuButton12">
+										<a class="dropdown-item" href="#">Wijzigen</a>
+										<a class="dropdown-item" href="#">Massages</a>
+										<a class="dropdown-item" href="#">Delete</a>
+									</div>
+								</div>
+							</li>
+						</div>
+					</ul>
+				</div>
+				
+				<!--EINDE Task-->
+				
+				<!--BEGIN MESSAGES-->
+				<div class="col-lg-4 mt-3 mt-lg-0">
+					<ul class="list-group" id="messages">
+						
+						<li class="list-group-item">
+							<header class="d-flex justify-content-between">
+								<h2>Messages</h2>
+								<div class="ml-5">
+									<div class="rounded-circle badge badge-primary position-relative p-4">
+										<p class="s1_badge_tekst">2</p>
+									</div>
+								</div>
+							</header>
+						</li>
+						
+						<li class="list-group-item d-flex">
+							
+							<div>
+								<div class="rounded-circle bg-primary s1_profile_pic"></div>
+							</div>
+							
+							<div class="ml-3">
+								<div>
+									<h3 class="afzender">Nina Jones <span>5 minutes ago</span></h3>
+									<p class="text-truncate">Hey You! It's me again :-) I attached a new ddddddd</p>
+								</div>
+								
+								<div class="d-flex align-items-center">
+									<a href=""><i class="fas fa-reply text-dark"></i></a>
+									<div class="dropdown">
+										
+										<button class="btn s1_optiemenu" type="button"
+										        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+											<i class="fas fa-cog text-dark"></i>
+										</button>
+										
+										<div class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+											<a class="dropdown-item" href="#">Gelezen</a>
+											<a class="dropdown-item" href="#">Delete</a>
+										</div>
+									</div>
+								</div>
+							
+							</div>
+						</li>
+						<li class="list-group-item d-flex">
+							
+							<div>
+								<div class="rounded-circle bg-primary s1_profile_pic"></div>
+							</div>
+							
+							<div class="ml-3">
+								<div>
+									<h3 class="afzender">Nina Jones <span>5 minutes ago</span></h3>
+									<p class="text-truncate">Hey You! It's me again :-) I attached a new ddddddd</p>
+								</div>
+								
+								<div class="d-flex align-items-center">
+									<a href=""><i class="fas fa-reply text-dark"></i></a>
+									<div class="dropdown">
+										
+										<button class="btn s1_optiemenu" type="button"
+										        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+											<i class="fas fa-cog text-dark"></i>
+										</button>
+										
+										<div class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+											<a class="dropdown-item" href="#">Gelezen</a>
+											<a class="dropdown-item" href="#">Delete</a>
+										</div>
+									</div>
+								</div>
+							
+							</div>
+						</li>
+						<li class="list-group-item d-flex">
+							
+							<div>
+								<div class="rounded-circle bg-primary s1_profile_pic"></div>
+							</div>
+							
+							<div class="ml-3">
+								<div>
+									<h3 class="afzender">Nina Jones <span>5 minutes ago</span></h3>
+									<p class="text-truncate">Hey You! It's me again :-) I attached a new ddddddd</p>
+								</div>
+								
+								<div class="d-flex align-items-center">
+									<a href=""><i class="fas fa-reply text-dark"></i></a>
+									<div class="dropdown">
+										
+										<button class="btn s1_optiemenu" type="button"
+										        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+											<i class="fas fa-cog text-dark"></i>
+										</button>
+										
+										<div class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+											<a class="dropdown-item" href="#">Gelezen</a>
+											<a class="dropdown-item" href="#">Delete</a>
+										</div>
+									</div>
+								</div>
+							
+							</div>
+						</li>
+						<li class="list-group-item d-flex">
+							
+							<div>
+								<div class="rounded-circle bg-primary s1_profile_pic"></div>
+							</div>
+							
+							<div class="ml-3">
+								<div>
+									<h3 class="afzender">Nina Jones <span>5 minutes ago</span></h3>
+									<p class="text-truncate">Hey You! It's me again :-) I attached a new ddddddd</p>
+								</div>
+								
+								<div class="d-flex align-items-center">
+									<a href=""><i class="fas fa-reply text-dark"></i></a>
+									<div class="dropdown">
+										
+										<button class="btn s1_optiemenu" type="button"
+										        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+											<i class="fas fa-cog text-dark"></i>
+										</button>
+										
+										<div class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+											<a class="dropdown-item" href="#">Gelezen</a>
+											<a class="dropdown-item" href="#">Delete</a>
+										</div>
+									</div>
+								</div>
+							
+							</div>
+						</li>
+					
+					</ul>
+				</div>
+				<!--EINDE MESSAGES-->
+				
+				<div class="col-lg-4">
+				
+				</div>
+			</div>
+		</div>
+	</section>
 </div>
 
-
-
 <script src="js/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/mijnscript.js"></script>
 

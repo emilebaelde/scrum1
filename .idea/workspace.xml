@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c10ccf93-4a29-41ca-b759-f642f7038bd9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/bootstrap.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepros-6.config" beforeDir="false" afterPath="$PROJECT_DIR$/prepros-6.config" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/customstyles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/customstyles.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -92,25 +89,51 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="866722911">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="37" />
+          <entry key="scss" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="37" />
+          <entry key="SCSS" value="7" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="55" column="55" lean-forward="true" selection-start-line="55" selection-start-column="55" selection-end-line="55" selection-end-column="55" />
-              <caret line="76" column="55" lean-forward="true" selection-start-line="76" selection-start-column="55" selection-end-line="76" selection-end-column="55" />
-              <caret line="97" column="55" lean-forward="true" selection-start-line="97" selection-start-column="55" selection-end-line="97" selection-end-column="55" />
-              <caret line="118" column="55" lean-forward="true" selection-start-line="118" selection-start-column="55" selection-end-line="118" selection-end-column="55" />
-              <caret line="143" column="55" lean-forward="true" selection-start-line="143" selection-start-column="55" selection-end-line="143" selection-end-column="55" />
-              <caret line="164" column="55" lean-forward="true" selection-start-line="164" selection-start-column="55" selection-end-line="164" selection-end-column="55" />
-              <caret line="185" column="55" lean-forward="true" selection-start-line="185" selection-start-column="55" selection-end-line="185" selection-end-column="55" />
-              <caret line="206" column="55" lean-forward="true" selection-start-line="206" selection-start-column="55" selection-end-line="206" selection-end-column="55" />
-              <caret line="229" column="55" lean-forward="true" selection-start-line="229" selection-start-column="55" selection-end-line="229" selection-end-column="55" />
-              <caret line="250" column="55" lean-forward="true" selection-start-line="250" selection-start-column="55" selection-end-line="250" selection-end-column="55" />
-              <caret line="271" column="55" lean-forward="true" selection-start-line="271" selection-start-column="55" selection-end-line="271" selection-end-column="55" />
-              <caret line="292" column="55" lean-forward="true" selection-start-line="292" selection-start-column="55" selection-end-line="292" selection-end-column="55" />
+            <state relative-caret-position="241">
+              <caret line="323" column="20" selection-start-line="323" selection-start-column="16" selection-end-line="323" selection-end-column="37" />
+              <folding>
+                <element signature="n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#li#0;n#ul#0;n#div#1;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#li#2;n#ul#0;n#div#1;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#li#3;n#ul#0;n#div#1;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#li#4;n#ul#0;n#div#1;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scss/customstyles.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="589">
+              <caret line="69" column="1" selection-start-line="69" selection-start-column="1" selection-end-line="69" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -118,7 +141,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/bootstrap.min.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
+            <state relative-caret-position="-34">
               <caret line="5" column="115014" selection-start-line="5" selection-start-column="115014" selection-end-line="5" selection-end-column="115014" />
               <folding>
                 <element signature="e#65745#65945#2" expanded="true" />
@@ -139,15 +162,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
               <caret line="14" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/scss/customstyles.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="466">
-              <caret line="33" column="16" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -178,8 +192,8 @@
       <list>
         <option value="$PROJECT_DIR$/scss/bootstrap.scss" />
         <option value="$PROJECT_DIR$/js/mijnscript.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/scss/customstyles.scss" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -190,10 +204,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1066" />
+    <option name="x" value="425" />
+    <option name="width" value="1083" />
+    <option name="height" value="1027" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -267,17 +280,18 @@
       <workItem from="1545207140517" duration="161000" />
       <workItem from="1545379236782" duration="6980000" />
       <workItem from="1545386402109" duration="2811000" />
+      <workItem from="1547199394310" duration="1210000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21671000" />
+    <option name="totallyTimeSpent" value="22881000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26332623" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2671141" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -322,9 +336,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/mijnscript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
+        <state relative-caret-position="-34">
           <caret line="5" column="115014" selection-start-line="5" selection-start-column="115014" selection-end-line="5" selection-end-column="115014" />
           <folding>
             <element signature="e#65745#65945#2" expanded="true" />
@@ -339,35 +360,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/mijnscript.js">
+    <entry file="file://$PROJECT_DIR$/scss/customstyles.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="589">
+          <caret line="69" column="1" selection-start-line="69" selection-start-column="1" selection-end-line="69" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="55" column="55" lean-forward="true" selection-start-line="55" selection-start-column="55" selection-end-line="55" selection-end-column="55" />
-          <caret line="76" column="55" lean-forward="true" selection-start-line="76" selection-start-column="55" selection-end-line="76" selection-end-column="55" />
-          <caret line="97" column="55" lean-forward="true" selection-start-line="97" selection-start-column="55" selection-end-line="97" selection-end-column="55" />
-          <caret line="118" column="55" lean-forward="true" selection-start-line="118" selection-start-column="55" selection-end-line="118" selection-end-column="55" />
-          <caret line="143" column="55" lean-forward="true" selection-start-line="143" selection-start-column="55" selection-end-line="143" selection-end-column="55" />
-          <caret line="164" column="55" lean-forward="true" selection-start-line="164" selection-start-column="55" selection-end-line="164" selection-end-column="55" />
-          <caret line="185" column="55" lean-forward="true" selection-start-line="185" selection-start-column="55" selection-end-line="185" selection-end-column="55" />
-          <caret line="206" column="55" lean-forward="true" selection-start-line="206" selection-start-column="55" selection-end-line="206" selection-end-column="55" />
-          <caret line="229" column="55" lean-forward="true" selection-start-line="229" selection-start-column="55" selection-end-line="229" selection-end-column="55" />
-          <caret line="250" column="55" lean-forward="true" selection-start-line="250" selection-start-column="55" selection-end-line="250" selection-end-column="55" />
-          <caret line="271" column="55" lean-forward="true" selection-start-line="271" selection-start-column="55" selection-end-line="271" selection-end-column="55" />
-          <caret line="292" column="55" lean-forward="true" selection-start-line="292" selection-start-column="55" selection-end-line="292" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/customstyles.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="33" column="16" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
+        <state relative-caret-position="241">
+          <caret line="323" column="20" selection-start-line="323" selection-start-column="16" selection-end-line="323" selection-end-column="37" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#0;n#ul#0;n#div#1;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#2;n#ul#0;n#div#1;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#3;n#ul#0;n#div#1;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#li#4;n#ul#0;n#div#1;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
